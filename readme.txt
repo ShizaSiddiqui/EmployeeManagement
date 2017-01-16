@@ -108,6 +108,7 @@ CreateRNClass (classname)
 	export default <name>;
 
 
+JS: fat arrow function. what does it do?
 
 
-
+npm install --save lodash

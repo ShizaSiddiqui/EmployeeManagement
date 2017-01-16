@@ -86,6 +86,9 @@ initial <- this is the first screen to show
 2. Router
 
 
+Picker:
+picker has default zero width!!!
+
 <LEARN>
 
 Sublime: shortcut for finding same word <= Cmd + D
@@ -103,6 +106,7 @@ CreateRNClass (classname)
 	    }
 	}
 	export default <name>;
+
 
 
 

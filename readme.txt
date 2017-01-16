@@ -89,6 +89,17 @@ initial <- this is the first screen to show
 Picker:
 picker has default zero width!!!
 
+
+Form to create employee: (Edit and Create form behaves just a little different. )
+1. User navigates to create employee form  
+2. employee form reducer is empty
+3. form is empty
+4. we have to prepopulate state in form reducer
+5. user edeits form we do not change employee model
+6. user submits form
+7. we save the data from the reducer
+
+
 <LEARN>
 
 Sublime: shortcut for finding same word <= Cmd + D

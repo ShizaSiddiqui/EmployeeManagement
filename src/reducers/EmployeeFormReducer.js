@@ -1,5 +1,6 @@
 import {
-    EMPLOYEE_UPDATE
+    EMPLOYEE_UPDATE,
+    EMPLOYEE_CREATE
 } from '../actions/types';
 
 const INITIAL_STATE = {
@@ -15,6 +16,9 @@ export default (state = INITIAL_STATE, action) => {
             //action.payload === { prop: 'name', value: 'jane'}
             //[] here is key interpolation. Not an array
             return { ...state, [action.payload.prop]: action.payload.value };
+        case EMPLOYEE_CREATE:
+            //reset form UI when creation is completed
+            return INITIAL_STATE;
         default:
             return state;
     }

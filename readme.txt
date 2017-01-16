@@ -100,6 +100,13 @@ Form to create employee: (Edit and Create form behaves just a little different. 
 7. we save the data from the reducer
 
 
+Modal: (reactnative = popup)
+	visible flag
+	transparent flag
+	animation type
+	onRequestClose (required for android)
+
+
 <LEARN>
 
 Sublime: shortcut for finding same word <= Cmd + D
